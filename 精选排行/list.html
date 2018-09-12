@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>detail</title>
+    <script src="js/self_adapt.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul,ol {
+           list-style: none;
+        }
+
+        .banner {
+          width:7.5rem;
+          height:7.8rem;
+          position: relative;
+        }
+        .banner-background {
+            width: 7.5rem;
+            height: 7.8rem;
+        }
+        .banner-back {
+            width: 0.55rem;
+            height: 0.55rem;
+        }
+        .banner-backIcont {
+            width: 0.55rem;
+            height: 0.55rem;
+            position: absolute;
+            top: 0.5rem;
+            left: 0.2rem;
+        }
+
+        .banner-swiperIcont {
+            width: 1.2rem;
+            height: 0.2rem;
+            position: absolute;
+            left: 3.1rem;
+            bottom: 0.23rem;
+            display: flex;
+        }
+        
+        .banner-swiperIcont li {
+            width: 0.15rem;
+            height: 0.15rem;
+            border-radius: 50%;
+            padding-left: 0.05rem;
+            background-color: #fbe8ec;
+        }
+        .info {
+            width:0 auto;
+            height: 2.4rem;
+            padding: 0.3rem 0.4rem 0.4rem 0.3rem;
+        }
+        .info-topTitle {
+            width: 6.5rem;
+            font-size: 0.32rem;
+            color: #333333;
+            font-weight: 700;
+        }
+        .info-middleNum {
+            width: 1.2rem;
+            font-size: 0.24rem;
+            color: #777777;
+            padding: 0.36rem 0;
+        }
+        .info-bottomPrice {
+            width: 7.0rem;
+            display: flex;
+        }
+        .info-bottomPriceA {
+            font-size: 0.44rem;
+            color: #f9282c; 
+        }
+        .info-bottomPriceB {
+            font-size:0.24rem;
+            padding:0.15rem 0.15rem; 
+            color:#777777;
+            text-decoration: line-through;
+        }
+        .info-bottomPriceC {
+            padding-left: 2rem;
+            padding-top: 0.15rem;
+            font-size: 0.32rem;
+            color: #f9282c
+        }
+
+        .info-bottomPriceD {
+            padding-left: 0.1rem;
+            padding-top: 0.1rem;
+            font-size:0.36rem;
+            color: #f9282c; 
+        }
+        
+        .separate {
+            width:0 auto;
+            height:0.23rem;
+            background-color:#eaeaea;
+        }
+        .ticket {
+            width: 0 auto;
+            height: 2.14rem;
+            position: relative;
+        }
+        .ticket-paper {
+            position: absolute;
+            width: 6.5rem;
+            height: 1.5rem;
+            top: 0.36rem;
+            left: 0.46rem;
+            background-color: #ffeded;
+            display: flex;    
+        }
+        .ticket-paperLeft {
+             width: 3.66rem;
+             height: 1.17rem;
+             padding-left: 0.25rem;
+             padding-top: 0.15rem;
+             border-right: 1px dashed #f50909;
+            
+        }
+        .ticket-paperLeft-topPrice {
+            font-size: 0.48rem;
+            color: #f50909;
+        }
+        .ticket-paperLeft-bottomTitle {
+            font-size: 0.28rem;
+            color: #f50909;
+        }
+
+        .ticket-paperRight {
+            width: 2.48rem;
+            height: 1.17rem;
+        }
+        .ticket-button {
+            box-sizing: border-box;
+            width: 1.7rem;
+            margin: 0.4rem 0.6rem;
+            padding:0.15rem 0.25rem; 
+            font-size: 0.28rem;
+            color: #ffffff;
+            background-color:#fb3738; 
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+            <img class="banner-background" src="images/banner.png" alt="">
+        <div class="banner-back">
+            <img class="banner-backIcont" src="images/1.png" alt="">
+        </div>
+        <ul class="banner-swiperIcont">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="info">
+        <div class="info-topTitle">苏泊尔电压力锅家用智能5L高压饭</div>
+        <div class="info-middleNum">月销11笔</div>
+        <div class="info-bottomPrice">
+                <div class="info-bottomPriceA">￥897.00</div>
+                <div class="info-bottomPriceB">￥899</div>
+                <div class="info-bottomPriceC">佣金:</div>
+                <div class="info-bottomPriceD">￥2.00</div>        
+        </div>
+    </div> 
+    <div class="separate"></div>
+    <div class="ticket">
+        <div class="ticket-paper">
+            <div class="ticket-paperLeft">
+                <div class="ticket-paperLeft-topPrice">￥2</div>
+                <div class="ticket-paperLeft-bottomTitle">促销活动优惠券</div>
+            </div>
+            <div class="ticket-paperRight">
+                 <div class="ticket-button">立即领取</div>
+            </div>
+        </div>
+    </div>
+    <div class="separate"></div>
+</body>
+</html>
